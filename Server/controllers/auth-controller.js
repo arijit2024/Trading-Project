@@ -4,7 +4,7 @@
 
 const home = async (req,res) => {
     try {
-        res.status(200).send("Wellcome")
+        res.status(200).send("Wellcome Home")
     } catch (error) {
         console.log(error)
     }
